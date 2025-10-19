@@ -54,7 +54,7 @@ Place the **`KEYDB.cfg`** file into the MakeMKV configuration folder.
 | Operating System | Target Folder |
 | :--- | :--- |
 | **Windows** | `%USERPROFILE%\.MakeMKV` |
-| **Linux** | `~/.MakeMKV` | (Not sure if that exist in Linux)
+| **Linux** | `~/.MakeMKV` |
 
 > **Tip:** You can verify the correct folder by checking if the file `_private_data.tar` is also present there.
 
