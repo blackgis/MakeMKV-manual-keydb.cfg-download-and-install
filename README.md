@@ -54,7 +54,7 @@ Place the **`KEYDB.cfg`** file into the MakeMKV configuration folder.
 | Operating System | Target Folder |
 | :--- | :--- |
 | **Windows** | `%USERPROFILE%\.MakeMKV` |
-| **Linux** | `~/.MakeMKV` |
+| **Linux** | `~/.MakeMKV` | (Not sure if that exist in Linux)
 
 > **Tip:** You can verify the correct folder by checking if the file `_private_data.tar` is also present there.
 
@@ -79,3 +79,4 @@ Place the **`KEYDB.cfg`** file into the MakeMKV configuration folder.
 * **KeyDB Download:** [http://fvonline-db.bplaced.net/](http://fvonline-db.bplaced.net/)
 * **Forum Reference (Folder and Renaming):** [MakeMKV Forum Topic](https://forum.makemkv.com/forum/viewtopic.php?t=34482)
 * **Forum Reference (Folder and Renaming):** [MakeMKV Comment](https://forum.makemkv.com/forum/viewtopic.php?p=154966#p154966)
+* **Linux Idea with wget** [AACS](https://forum.endeavouros.com/t/wo-finde-ich-eine-aktuelle-keydb-cfg/70218)
