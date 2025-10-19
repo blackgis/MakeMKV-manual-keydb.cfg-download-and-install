@@ -28,11 +28,11 @@ On **Windows**, we recommend using `wget2` for downloading. Skip this step on mo
 2.  Use `wget2` (Windows) or `wget` (Linux) to download the latest **German** key database archive. This version is widely used and maintained.
     * **Windows (PowerShell):**
         ```powershell
-        wget2 -P "$env:USERPROFILE/Downloads" -N --no-check-certificate [http://fvonline-db.bplaced.net/export/keydb_deu.zip](http://fvonline-db.bplaced.net/export/keydb_deu.zip)
+        wget2 -P "Downloads" -N --no-check-certificate http://fvonline-db.bplaced.net/export/keydb_deu.zip
         ```
-    * **Linux (Terminal):**
+    * **Linux (Terminal):** (optional:  -P ~/Downloads)
         ```bash
-        wget -P ~/Downloads -N --no-check-certificate [http://fvonline-db.bplaced.net/export/keydb_deu.zip](http://fvonline-db.bplaced.net/export/keydb_deu.zip)
+        wget -P ~/Downloads -N --no-check-certificate http://fvonline-db.bplaced.net/export/keydb_deu.zip
         ```
     * **Note:** The download can take some time. ⏳
     * **Alternative:** To download a different language version, check the [Source Page](http://fvonline-db.bplaced.net/) for the correct URL.
